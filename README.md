@@ -1,0 +1,1 @@
+Projeto de estudo e treinamento fornecido pela Rocketseat no evento nlw-expert. O Projeto consiste em uma aplicação feita com React-Native, na qual desenvolvemos um sistema de delivery, gerando um pedido e enviando por whatsapp.
