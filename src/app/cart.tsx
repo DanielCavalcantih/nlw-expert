@@ -51,7 +51,7 @@ export default function Cart() {
     const message = `
       🍔NOVO PEDIDO🍔
       \n Entregar em: ${address}
-      ${products}
+      ${allProducts}
       \n Valor total: ${total}
     `
 
@@ -93,6 +93,7 @@ export default function Cart() {
               blurOnSubmit={true}
               onSubmitEditing={handleOrder}
               returnKeyType="next"
+              className="text-white"
             />
           </View>
         </ScrollView>
