@@ -55,6 +55,8 @@ export default function Cart() {
       \n Valor total: ${total}
     `
 
+    console.log(message);
+
     Linking.openURL(`http://api.whatsapp.com/send?phone=${PHONE_NUMBER}&text=${message}`);
     clear();
     navigation.goBack();
